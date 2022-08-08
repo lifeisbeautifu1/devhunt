@@ -1,25 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Home } from './pages';
+import { Routes, Route } from 'react-router-dom';
+import { SharedLayout } from './components';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<SharedLayout />}>
+        <Route index element={<Home />} />
+        <Route path="projects" element={<Home />} />
+        <Route path="developers" element={<Home />} />
+        <Route path="community" element={<Home />} />
+        <Route path="blog" element={<Home />} />
+      </Route>
+    </Routes>
   );
 }
 
