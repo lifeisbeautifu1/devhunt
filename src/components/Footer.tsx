@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="lg:px-28 px-8 pt-8 pb-12 border-t border-gray-200 flex justify-between items-center">
+    <div className="lg:px-28 px-8 pt-8 pb-12 border-t border-gray-200 flex  justify-between items-center">
       <h1>Paul Bratslavsky | 2022</h1>
       <ul className="flex items-center gap-6 text-[22px] text-gray-400">
         <li className="hover:text-gray-600">

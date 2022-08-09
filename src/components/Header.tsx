@@ -2,7 +2,7 @@ import header from '../images/header.avif';
 
 const Header = () => {
   return (
-    <div className=" flex flex-col md:flex-row items-center px-8 lg:px-28 py-20 gap-12 md:gap-6">
+    <div className=" flex flex-col md:flex-row items-center px-8 xl:px-28 py-20 gap-12 md:gap-6">
       <div className="w-full md:w-1/2 flex flex-col justify-start items-center md:items-start text-center md:text-left gap-4 ">
         <h1 className="text-6xl font-[800] mt-0 md:mt-16">
           Welcome to <span className="text-indigo-600">Dev Hunt</span>

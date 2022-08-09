@@ -7,7 +7,7 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
-    <div className="rounded-md overflow-hidden shadow flex flex-col min-w-[300px] max-w-[500px] align-center w-full">
+    <div className="rounded-md overflow-hidden shadow flex flex-col min-w-[300px] max-w-[370px] align-center w-full">
       <div className="h-[200px]">
         <img
           src={project.thumbnail}

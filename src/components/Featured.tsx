@@ -3,7 +3,7 @@ import { ProjectCard } from './';
 
 const Featured = () => {
   return (
-    <div className="px-8 lg:px-28 mt-8 flex flex-col gap-16 ">
+    <div className="px-8 xl:px-28 mt-8 flex flex-col gap-16 ">
       <div className="text-center flex flex-col gap-4">
         <h1 className="text-4xl font-[800]">Featured Projects</h1>
         <p className="text-xl text-gray-500">
