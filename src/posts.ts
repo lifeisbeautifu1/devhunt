@@ -1,4 +1,4 @@
-export default [
+const posts = [
   {
     type: 'Article',
     title: 'Boost your conversion rate',
@@ -33,3 +33,4 @@ export default [
     time: '11 min read',
   },
 ];
+export default posts;

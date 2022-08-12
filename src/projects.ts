@@ -1,4 +1,4 @@
-export default [
+const projects = [
   {
     thumbnail:
       'https://res.cloudinary.com/course-share/image/upload/v1629674177/large_yourfirstproject_08b0e49368.png',
@@ -35,3 +35,5 @@ export default [
     link: '/',
   },
 ];
+
+export default projects;
