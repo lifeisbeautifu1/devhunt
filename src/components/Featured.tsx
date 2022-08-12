@@ -11,7 +11,7 @@ const Featured = () => {
           community.
         </p>
       </div>
-      <div className="flex flex-col items-center lg:items-stretch lg:flex-row gap-4 justify-center">
+      <div className="flex flex-col items-center lg:items-stretch lg:flex-row gap-10 justify-center">
         {projects.map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}

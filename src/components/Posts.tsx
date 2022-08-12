@@ -5,7 +5,7 @@ import posts from '../posts';
 
 const Posts = () => {
   return (
-    <div className="px-28 my-20 flex flex-col items-center md:items-stretch gap-12">
+    <div className="px-8 lg:px-28 my-20 flex flex-col items-center md:items-stretch gap-12">
       <div className="py-10 border-b border-gray-300">
         <h1 className="text-4xl font-[800]">Recent Posts</h1>
         <p className="text-gray-500 text-xl mt-4">
